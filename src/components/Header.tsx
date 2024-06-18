@@ -65,7 +65,7 @@ export default function Header() {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link
-            className="text-blue-500 hover:underline"
+            className=" hover:underline"
             href="/"
           >
             Log In
@@ -73,7 +73,7 @@ export default function Header() {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link
-            className="text-purple-500 hover:underline"
+            className="text-blue-500 hover:underline"
             href="/"
           >
             Sign Up
