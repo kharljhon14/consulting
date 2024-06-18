@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <NextUIProvider>
           <Header />
-          <div className="mx-4">{children}</div>
+          <div>{children}</div>
         </NextUIProvider>
       </body>
     </html>

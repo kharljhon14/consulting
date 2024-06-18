@@ -1,9 +1,10 @@
 import { Button } from '@nextui-org/button';
 import { Image } from '@nextui-org/image';
 import { Divider, Spacer } from '@nextui-org/react';
+
 export default function Hero() {
   return (
-    <div className="mt-6 text-[#f8f7f3]">
+    <div className="mt-6 text-[#f8f7f3] mx-4">
       <div className=" h-72">
         <h1 className="text-6xl">Uniting Research with Capital</h1>
       </div>

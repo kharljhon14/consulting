@@ -1,9 +1,11 @@
+import Collective from '@/features/Collective';
 import Hero from '@/features/Hero';
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Hero />
-    </div>
+      <Collective />
+    </main>
   );
 }
