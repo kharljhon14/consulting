@@ -3,6 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 
+import Header from '@/components/Header';
 import NextUIProvider from '@/providers/NextUIProvider';
 
 const roboto = Roboto({
@@ -23,7 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <NextUIProvider>{children}</NextUIProvider>
+        <NextUIProvider>
+          <Header />
+          {children}
+        </NextUIProvider>
       </body>
     </html>
   );
