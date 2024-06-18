@@ -4,7 +4,7 @@ import { AiOutlineStock } from 'react-icons/ai';
 import { CiPill } from 'react-icons/ci';
 import { TbPigMoney } from 'react-icons/tb';
 
-export default function Collective() {
+export default function CollectiveCards() {
   return (
     <div className="text-[#20261d] bg-[#f8f7f3]">
       <div className="mx-4 py-10">
