@@ -11,11 +11,7 @@ import { FaLocationArrow } from 'react-icons/fa6';
 
 export default function Header() {
   return (
-    <Navbar
-      shouldHideOnScroll
-      isBordered
-      isBlurred={false}
-    >
+    <Navbar isBordered>
       <NavbarBrand>
         <Link
           className="text-lg flex items-center"
