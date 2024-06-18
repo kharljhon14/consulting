@@ -11,7 +11,11 @@ import { FaLocationArrow } from 'react-icons/fa6';
 
 export default function Header() {
   return (
-    <Navbar isBordered>
+    <Navbar
+      isBordered
+      isBlurred={false}
+      className="bg-[#20261d] text-[#f8f7f3] border-b-[#f8f7f3]"
+    >
       <NavbarBrand>
         <Link
           className="text-lg flex items-center"
@@ -26,7 +30,7 @@ export default function Header() {
         <NavbarMenuToggle />
       </NavbarContent>
 
-      <NavbarMenu>
+      <NavbarMenu className="bg-[#f8f7f3] text-[#20261d] backdrop-blur-xl">
         <NavbarMenuItem>
           <Link
             className="hover:underline"
