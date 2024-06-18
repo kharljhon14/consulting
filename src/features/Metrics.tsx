@@ -5,10 +5,6 @@ import { RiGitForkFill, RiVerifiedBadgeFill } from 'react-icons/ri';
 export default function Metrics() {
   return (
     <div className="text-[#f8f7f3] mx-4 mt-8 mb-16">
-      <div>
-        <span>Impresive Metrics</span>
-      </div>
-
       <div className="my-8">
         <h1 className="mb-16 text-xl">
           Born from the collective ambition of industry veterans and technology innovators, our
