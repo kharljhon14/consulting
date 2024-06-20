@@ -5,7 +5,7 @@ import { FaStarOfLife } from 'react-icons/fa6';
 
 export default function Process() {
   return (
-    <div className="bg-secondary text-primary">
+    <div className="bg-secondary text-primary pb-8">
       <div className="mx-4 pt-16 mb-8">
         <h1 className="text-2xl font-semibold mb-8">Our Process</h1>
 
