@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <Navbar
       isBlurred={false}
-      className="bg-primary text-secondary border-b-secondary"
+      className="bg-primary text-secondary"
     >
       <NavbarBrand>
         <Link
@@ -29,7 +29,7 @@ export default function Header() {
         <NavbarMenuToggle />
       </NavbarContent>
 
-      <NavbarMenu className="bg-secondary text-primary backdrop-blur-xl">
+      <NavbarMenu className=" text-primary">
         <NavbarMenuItem>
           <Link
             className="hover:underline"
@@ -72,7 +72,7 @@ export default function Header() {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link
-            className="text-blue-500 hover:underline"
+            className=" hover:underline"
             href="/"
           >
             Sign Up
