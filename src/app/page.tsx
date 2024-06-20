@@ -1,6 +1,7 @@
 import CollectiveCards from '@/features/CollectiveCards';
 import Hero from '@/features/Hero';
 import Metrics from '@/features/Metrics';
+import Process from '@/features/Process';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <CollectiveCards />
       <Metrics />
+      <Process />
     </main>
   );
 }
