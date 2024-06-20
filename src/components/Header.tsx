@@ -1,7 +1,9 @@
 import {
+  Button,
   Navbar,
   NavbarBrand,
   NavbarContent,
+  NavbarItem,
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle
@@ -25,11 +27,50 @@ export default function Header() {
         </Link>
       </NavbarBrand>
 
-      <NavbarContent justify="end">
+      <NavbarContent
+        className="hidden lg:flex"
+        justify="center"
+      >
+        <NavbarItem>
+          <Link href="#">Explore</Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link href="#">Translate</Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link href="#">Search</Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link href="#">Cart</Link>
+        </NavbarItem>
+      </NavbarContent>
+
+      <NavbarContent
+        className="hidden lg:flex"
+        justify="end"
+      >
+        <NavbarItem>
+          <Link href="#">Login</Link>
+        </NavbarItem>
+
+        <NavbarItem>
+          <Button
+            variant="flat"
+            className="bg-primary_dark text-secondary"
+          >
+            Sign Up
+          </Button>
+        </NavbarItem>
+      </NavbarContent>
+
+      <NavbarContent
+        justify="end"
+        className="lg:hidden"
+      >
         <NavbarMenuToggle />
       </NavbarContent>
 
-      <NavbarMenu className=" text-primary">
+      <NavbarMenu className="text-primary lg:hidden">
         <NavbarMenuItem>
           <Link
             className="hover:underline"
