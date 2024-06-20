@@ -6,7 +6,7 @@ import { TbPigMoney } from 'react-icons/tb';
 
 export default function CollectiveCards() {
   return (
-    <div className="text-[#20261d] bg-[#f8f7f3]">
+    <div className="text-primary bg-secondary">
       <div className="mx-4 py-10">
         <div className="my-8">
           <h1 className="text-2xl text-center">
@@ -15,7 +15,7 @@ export default function CollectiveCards() {
         </div>
         <Divider className="my-8" />
         <div className="flex flex-col gap-y-4">
-          <Card className="h-36 bg-[#ebe3d8] text-[#20261d]">
+          <Card className="h-36 bg-secondary text-primary">
             <CardHeader>
               <TbPigMoney size={24} />
             </CardHeader>
@@ -23,7 +23,7 @@ export default function CollectiveCards() {
               <p className="text-lg">Strategic Funding</p>
             </CardBody>
           </Card>
-          <Card className="h-36 bg-[#ebe3d8] text-[#20261d]">
+          <Card className="h-36 bg-secondary text-primary">
             <CardHeader>
               <CiPill size={24} />
             </CardHeader>
@@ -31,7 +31,7 @@ export default function CollectiveCards() {
               <p className="text-lg">Regulatory Guidance</p>
             </CardBody>
           </Card>
-          <Card className="h-36 bg-[#ebe3d8] text-[#20261d]">
+          <Card className="h-36 bg-secondary text-primary">
             <CardHeader>
               <AiOutlineStock size={24} />
             </CardHeader>

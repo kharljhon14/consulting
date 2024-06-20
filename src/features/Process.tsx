@@ -5,7 +5,7 @@ import { FaStarOfLife } from 'react-icons/fa6';
 
 export default function Process() {
   return (
-    <div className="bg-[#f8f7f3] text-[#20261d]">
+    <div className="bg-secondary text-primary">
       <div className="mx-4 pt-16 mb-8">
         <h1 className="text-2xl font-semibold mb-8">Our Process</h1>
 
@@ -67,7 +67,7 @@ export default function Process() {
 
             <span>Client Experience</span>
           </h2>
-          <Card className="bg-[#ebe3d8]">
+          <Card className="bg-accent">
             <CardBody>
               <div className="flex items-center space-x-4 mb-4">
                 <Avatar src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />

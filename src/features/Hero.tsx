@@ -4,19 +4,19 @@ import { Divider, Spacer } from '@nextui-org/react';
 
 export default function Hero() {
   return (
-    <div className="mt-6 text-[#f8f7f3] mx-4">
+    <div className="mt-6 text-secondary mx-4">
       <div className=" h-72">
         <h1 className="text-6xl">Uniting Research with Capital</h1>
       </div>
 
-      <Divider className="my-6 bg-[#f8f7f3]" />
+      <Divider className="my-6 bg-secondary" />
       <div className="pb-8">
         <div className="my-8 flex justify-center flex-col">
           <p className="leading-6 text-center">
             Stem expedites the journey of groundbreaking healthcare solutions from conception to
             global markets.
           </p>
-          <Button className="mt-8 bg-[#3f463a] text-[#f8f7f3]">Buy Stem</Button>
+          <Button className="mt-8 bg-primary text-secondary">Buy Stem</Button>
         </div>
 
         <div className="flex flex-col items-end">
