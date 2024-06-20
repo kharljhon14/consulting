@@ -15,7 +15,7 @@ export default function CollectiveCards() {
         </div>
         <Divider className="my-8" />
         <div className="flex flex-col gap-y-4">
-          <Card className="h-36 bg-secondary text-primary">
+          <Card className="h-36 bg-accent text-primary">
             <CardHeader>
               <TbPigMoney size={24} />
             </CardHeader>
@@ -23,7 +23,7 @@ export default function CollectiveCards() {
               <p className="text-lg">Strategic Funding</p>
             </CardBody>
           </Card>
-          <Card className="h-36 bg-secondary text-primary">
+          <Card className="h-36 bg-accent text-primary">
             <CardHeader>
               <CiPill size={24} />
             </CardHeader>
@@ -31,7 +31,7 @@ export default function CollectiveCards() {
               <p className="text-lg">Regulatory Guidance</p>
             </CardBody>
           </Card>
-          <Card className="h-36 bg-secondary text-primary">
+          <Card className="h-36 bg-accent text-primary">
             <CardHeader>
               <AiOutlineStock size={24} />
             </CardHeader>
