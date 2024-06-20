@@ -3,6 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import NextUIProvider from '@/providers/NextUIProvider';
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         <NextUIProvider>
           <Header />
           <div>{children}</div>
+          <Footer />
         </NextUIProvider>
       </body>
     </html>
