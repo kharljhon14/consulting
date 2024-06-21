@@ -1,0 +1,172 @@
+[33mcommit fde01a08953f1f62bae5a84de253e05c2053cc20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Fri Jun 21 11:32:19 2024 +0800
+
+    [Style] Collective cards desktop
+
+[33mcommit 52ce4361317ac65964ae2cf7c5e3158e570ab44e[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Fri Jun 21 11:07:14 2024 +0800
+
+    [Feat] Hero desktop
+
+[33mcommit 80faa4dfe5d2691d0df5d78ef7262d393d5ff106[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Fri Jun 21 07:32:28 2024 +0800
+
+    [Style] Header Desktop design
+
+[33mcommit 67157a2bc0ba178a9dbdc00f63e1a58506b72ef0[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Fri Jun 21 07:20:56 2024 +0800
+
+    [Fix] Update SSO
+
+[33mcommit 3668d3b7f12e95e1f270d7cac90ec8055d153ddd[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Fri Jun 21 00:34:28 2024 +0800
+
+    [Fix] Fix card bg-color
+
+[33mcommit 8d8ed11b7cf3799bfffe7d598988ca9adccdc763[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 23:46:38 2024 +0800
+
+    [Feat] Footer Component
+
+[33mcommit a9ddfe06fd2b06bd516893002724ea8221224a1a[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 22:13:01 2024 +0800
+
+    [Feat] News
+    - Text content
+    - images
+
+[33mcommit 2247167b6bb4dec34bca89cca188792894a4d555[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 21:04:54 2024 +0800
+
+    [Style] Header Update navbar item color
+
+[33mcommit 50911f9acf081003b399944a8c6d850cc5517141[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 20:40:00 2024 +0800
+
+    [Feat] Ambitions
+    - Text content
+    - Image sample
+    - List style
+
+[33mcommit 8c1ca62fd8f89141433b3d519743f539646ee751[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 20:15:47 2024 +0800
+
+    [Chore] Added tailwind color variables
+
+[33mcommit 2758d0dffad06eaf97abb621d59f5148fcb0362f[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 09:16:16 2024 +0800
+
+    [Feat] Process
+    - Client experience
+
+[33mcommit 67b6a104f2bc35830f74758da7b72cf39b8877c8[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 09:01:06 2024 +0800
+
+    [Feat] Process
+    - Text content
+    - Styling
+
+[33mcommit 7ad3a75419544ced9509703bda2b4120d0ea7f9f[m
+Author: Kharl <enriquezkharl14@gmail.com>
+Date:   Thu Jun 20 08:38:48 2024 +0800
+
+    [Feat] Process feature
+
+[33mcommit b62fa685f615492f1f44baab0f7aff202cd443cd[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Wed Jun 19 06:42:06 2024 +0800
+
+    [Feat] Remove span text
+
+[33mcommit 9858c061148da4348fd0be60e3dba9f7e54be028[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Wed Jun 19 06:41:25 2024 +0800
+
+    [Feat] Metrics
+    - Metric title
+    - Metric badges
+
+[33mcommit b8f11e52c11b8d12d3ee2b40cba876b8424cc61e[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 23:59:09 2024 +0800
+
+    [Chore] Updtae file name
+
+[33mcommit 26a80b2eef872924158b43ff7bbdae2f38aefef9[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 23:11:01 2024 +0800
+
+    [Feat] Collective
+    - Title
+    - Cards
+
+[33mcommit 0bb9ffb01ab1179fa806ed492d585b3b569b27ae[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 22:46:10 2024 +0800
+
+    [Feat] Hero
+    - Hero title
+    - Subtitle and images
+
+[33mcommit 58e0e8b004f567150896909077623884d1241c2e[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 22:21:12 2024 +0800
+
+    [Style] Header
+    - Update menu text color
+
+[33mcommit c8fe80a8d6cc8f636bff9e0921ef091193e35126[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 22:19:46 2024 +0800
+
+    [Style] Header
+    - Update header background color and text color
+
+[33mcommit 2deeea6fc0485a56a09112f26c89025b34761473[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 21:48:31 2024 +0800
+
+    [Style] Header - Remove hide on scroll
+    - Added blur
+
+[33mcommit df6841334f086122ec73597e7a26e790eb0043b4[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 21:45:57 2024 +0800
+
+    [Feat] Mobile header component
+
+[33mcommit 5bff2eb9efc338bc5f4209eddb8064cde930ace7[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 20:12:39 2024 +0800
+
+    [Feat] Next UI Provider
+
+[33mcommit fac6b928bcf7fd1e1af622dca13115a6285acc00[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 17:53:32 2024 +0800
+
+    [Feat] Added next ui
+
+[33mcommit 0b1239989e485762b8e20026fb23093ee0972dfa[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 07:40:47 2024 +0800
+
+    initial comit
+
+[33mcommit d734083b34659e4388ddf4dcba0f30bbf43b2648[m
+Author: kharle14 <enriquezkharl14@gmail.com>
+Date:   Tue Jun 18 07:30:27 2024 +0800
+
+    Initial commit from Create Next App

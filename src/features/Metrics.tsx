@@ -6,13 +6,13 @@ export default function Metrics() {
   return (
     <div className="text-secondary mx-4 mt-8 mb-16">
       <div className="my-8">
-        <h1 className="mb-16 text-xl">
+        <h1 className="mb-16 text-xl lg:text-2xl lg:max-w-3xl">
           Born from the collective ambition of industry veterans and technology innovators, our
           mission is to expedite the journey of groundbreaking healhcare solutions from conception
           to global markets.
         </h1>
 
-        <div>
+        <div className="lg:space-y-6">
           <Divider className="bg-primary/50" />
           <div className="my-3 flex items-center gap-x-3">
             <div className="border p-1 rounded border-primary/50">
