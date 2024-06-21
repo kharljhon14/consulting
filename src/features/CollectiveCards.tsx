@@ -7,7 +7,7 @@ import { TbPigMoney } from 'react-icons/tb';
 export default function CollectiveCards() {
   return (
     <div className="text-primary bg-secondary">
-      <div className="mx-4 py-10">
+      <div className="mx-4 pt-10 pb-16">
         <div className="my-8 lg:max-w-xl">
           <h1 className="text-2xl text-center lg:text-4xl lg:text-start">
             Born form the collective ambition of industry veterans and technology innovators.
