@@ -74,24 +74,28 @@ export default function Process() {
               <span>Client Experience</span>
             </h2>
           </div>
-          <Card className="bg-accent lg:p-6 lg:max-w-2xl ml-auto">
-            <CardBody>
-              <div className="flex items-center space-x-4 mb-4">
-                <Avatar
-                  size="lg"
-                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                />
-                <div className="flex  flex-col text-sm">
-                  <span className="font-semibold lg:text-lg">David Kahn</span>
-                  <span className="text-xs text-gray-500 lg:text-sm">Chief Executive Officer</span>
+          <div className="lg:flex lg:items-center lg:justify-center w-full">
+            <Card className="bg-accent lg:p-6 lg:max-w-2xl">
+              <CardBody>
+                <div className="flex items-center space-x-4 mb-4">
+                  <Avatar
+                    size="lg"
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  />
+                  <div className="flex  flex-col text-sm">
+                    <span className="font-semibold lg:text-lg">David Kahn</span>
+                    <span className="text-xs text-gray-500 lg:text-sm">
+                      Chief Executive Officer
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <p className="font-serif">
-                &ldquo;Working with Stem has been transformative experience. They occupy the
-                impossible space between medical research and responsible capitalism.&rdquo;
-              </p>
-            </CardBody>
-          </Card>
+                <p className="font-serif">
+                  &ldquo;Working with Stem has been transformative experience. They occupy the
+                  impossible space between medical research and responsible capitalism.&rdquo;
+                </p>
+              </CardBody>
+            </Card>
+          </div>
         </div>
       </div>
     </div>
