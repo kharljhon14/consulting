@@ -23,7 +23,7 @@ export default function Hero() {
           <Button className="mt-8 bg-primary text-secondary px-10">Buy Stem</Button>
         </div>
 
-        <div className="flex flex-col items-end lg:flex-row lg:space-x-4 lg:space-y-2 lg:items-center">
+        <div className="flex flex-col items-end lg:flex-row lg:space-x-4 space-y-4 lg:items-center">
           <div className="mr-auto space-y-2 ">
             <Image
               width={300}
