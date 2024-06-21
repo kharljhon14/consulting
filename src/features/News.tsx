@@ -12,7 +12,7 @@ export default function News() {
         <div className=" flex flex-col space-y-10">
           <Link href="/">
             <div className="lg:flex lg:space-x-6 lg:py-6 ">
-              <div className="lg:flex-1 lg:flex lg:items-center lg:justify-center border-r-2">
+              <div className="lg:flex-1 lg:flex lg:items-center lg:justify-center lg:border-r-2">
                 <Image
                   className="lg:w-[30rem]"
                   alt=""
@@ -36,7 +36,7 @@ export default function News() {
           <Divider />
           <Link href="/">
             <div className="lg:flex lg:space-x-6 lg:py-6">
-              <div className="lg:flex-1 lg:flex lg:items-center lg:justify-center border-r-2">
+              <div className="lg:flex-1 lg:flex lg:items-center lg:justify-center lg:border-r-2">
                 <Image
                   className="lg:w-[30rem]"
                   alt=""
@@ -44,7 +44,7 @@ export default function News() {
                 />
               </div>
               <div className="mt-6 lg:flex-1 lg:mt-0 lg:flex lg:flex-col">
-                <div className="flex justify-between lg:justify-start lg:space-x-6">
+                <div className="flex justify-between mb-6 lg:justify-start lg:space-x-6">
                   <div className="flex items-center space-x-2">
                     <FaStarOfLife size={12} />
                     <span>Insight</span>

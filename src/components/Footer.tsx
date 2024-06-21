@@ -5,7 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa6';
 export default function Footer() {
   return (
     <footer className="text-secondary mx-4 py-10">
-      <div>
+      <div className="lg:flex lg:justify-evenly">
         <div className="flex flex-col">
           <Link
             className="text-lg flex items-center mb-8 w-fit"
@@ -31,9 +31,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <Divider className="bg-secondary my-6" />
+        <Divider className="bg-secondary my-6 lg:hidden" />
 
-        <div className="flex justify-between">
+        <div className="flex justify-between lg:justify-end lg:space-x-10">
           <div className="flex flex-col space-y-4">
             <div>
               <h2 className="mb-4">Product</h2>
@@ -112,11 +112,10 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
-        <Divider className="bg-secondary mt-6 mb-8" />
-        <div>
-          <p className="text-center">&copy; 2024 Arrow Consulting. All rights reserved.</p>
-        </div>
+      </div>
+      <Divider className="bg-secondary mt-6 mb-8" />
+      <div>
+        <p className="text-center">&copy; 2024 Arrow Consulting. All rights reserved.</p>
       </div>
     </footer>
   );
