@@ -89,7 +89,7 @@ export default function Process() {
                     </span>
                   </div>
                 </div>
-                <p className="font-serif">
+                <p className="font-serif text-xl">
                   &ldquo;Working with Stem has been transformative experience. They occupy the
                   impossible space between medical research and responsible capitalism.&rdquo;
                 </p>
